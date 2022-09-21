@@ -1,0 +1,7 @@
+=If(Match([Gender(894)];"*Questioning*");"Questioning";
+If([Gender(894)]InList("Female, Transgender";"Male, Transgender";"Transgender");"Transgender";
+If(Match([Gender(894)];"*,*");"No Single Gender";
+If([Gender(894)]="Male";"Male";
+If([Gender(894)]="Female";"Female";
+If([Gender(894)]InList("Client doesn't know";"Client refused");"DKR";
+If(IsNull([Gender(894)]); "Missing Value";"Missing Value")))))))
