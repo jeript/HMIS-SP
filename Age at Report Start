@@ -1,0 +1,1 @@
+=Floor(DaysBetween([Client Date of Birth];[Report Start Prompt])/365.25)
