@@ -1,0 +1,2 @@
+=If(IsError(ToDate(UserResponse("Report Start Date:");"M/dd/yyyy h:mm:ss a"));ToDate(UserResponse("Report
+Start Date:");"M/dd/yyyy");ToDate(UserResponse("Report Start Date:");"M/dd/yyyy h:mm:ss a"))
