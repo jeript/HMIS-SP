@@ -1,0 +1,2 @@
+=RelativeDate(If(IsError(ToDate(UserResponse("Report End Date (Plus One Day):");"M/dd/yyyy h:mm:ss a"));ToDate(UserResponse("Report
+ End Date (Plus One Day):");"M/dd/yyyy");ToDate(UserResponse("Report End Date (Plus One Day):");"M/dd/yyyy h:mm:ss a"));-1)
