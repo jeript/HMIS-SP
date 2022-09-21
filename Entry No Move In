@@ -1,0 +1,1 @@
+=If((IsNull([Input Move In Date]));If(IsNull([Entry Exit Exit Date]);(DaysBetween([Entry Date];[Report End Prompt]))))
