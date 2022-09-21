@@ -1,0 +1,1 @@
+=If((IsNull([Entry Exit Exit Date]));[Days Between No Exitdim];[Days Between])
