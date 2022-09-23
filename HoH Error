@@ -1,0 +1,1 @@
+=NoFilter(If(Count([Client Uid]) Where([Relationship to Head of Household(3375)]="Self (head of household)") In([Entry Exit Group UID])<>1;"X"))
