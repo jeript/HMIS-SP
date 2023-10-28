@@ -1,7 +1,0 @@
-=If(Not(IsNull([Client Secondary Race])) And [Client Secondary Race]<>[Primary Race(895)] And Not([Client Secondary Race] InList("Client refused (HUD)";"Data not collected (HUD)")) And Not([Primary Race(895)] InList("Client refused (HUD)";"Data not collected (HUD)"));"Multiracial";
-If([Primary Race(895)]="Black, African American, or African (HUD)";"Black, African American, or African";
-If([Primary Race(895)]="American Indian, Alaska Native, or Indigenous (HUD)";"American Indian, Alaska Native, or Indigenous";
-If([Primary Race(895)]="Asian or Asian American (HUD)";"Asian or Asian American";
-If([Primary Race(895)]="Native Hawaiian or Pacific Islander (HUD)";"Native Hawaiian or Pacific Islander";
-If([Primary Race(895)]="White (HUD)";"White";"Unidentified"
-))))))
