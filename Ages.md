@@ -1,21 +1,21 @@
 # Age Variables
 
-Age at Report Start
+Age at Adjusted Entry (Age at report start date from adjusted entry or actual entry date if enrolled during the report)
 
 ```
-=Floor(DaysBetween([Client Date of Birth];[Prompt Report Start])/365.25)
+=Floor(DaysBetween([Client Date of Birth];[Adjusted Entry])/365.25)
 ```
 
-Age at Entry
+Age at Entry - [Client Age at Entry] and [Client Age at Exit] are also available in EE universe
 
 ```
 =Floor(DaysBetween([Client Date of Birth];[Entry Exit Entry Date])/365.25)
 ```
 
-Age at Exit/Adjusted End (Current Date if in future)
+Age at Exit/Adjusted End
 
 ```
-
+=Floor(DaysBetween([Client Date of Birth];[Adjusted Exit])/365.25)
 ```
 
 Age Buckets - You can also create groups directly in Business Objects by clicking the dots beside of a variable and selecting 'Groups'
